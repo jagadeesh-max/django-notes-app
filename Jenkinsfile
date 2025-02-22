@@ -22,6 +22,7 @@ pipeline{
         stage("Deploy"){
             steps{
                 deploy()
+                echo "docker deploy complete"
             }
         }
         
